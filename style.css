@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+body{
+    background-image: url(./images/Coronavirus-Covid-19-DNA.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 1;
+}
+
+.card{
+    background-image: linear-gradient(to right bottom, red, rgb(40, 40, 109));
+    color: black;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 5%;
+    box-shadow: 6px 6px 9px 9px transparent;
+    opacity: 0.7;
+}
+
+.btn{
+    margin-left: 20px;
+}
+
+select{
+    background-color: white;
+}
+
+.card-title,#date,#population,#confirmed,#recoverd,#active,#death{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.virus-image{
+    width: 100px;
+}
+
+h1{
+    background-image: linear-gradient(to right bottom, red, rgb(40, 40, 109));
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid tomato;
+    padding: 20px;
+    color: white;
+    font-family: 'New Tegomin', serif;
+}
+
